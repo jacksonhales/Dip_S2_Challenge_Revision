@@ -8,6 +8,7 @@ namespace Challenge_Revision.ASP.NET.Controllers
 {
     public class HomeController : Controller
     {
+        [RequireHttps]
         public ActionResult Index()
         {
             ViewBag.Title = "Home Page";
